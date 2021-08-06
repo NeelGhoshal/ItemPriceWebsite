@@ -1,2 +1,2 @@
 # ItemPriceWebsite
-An Item Display website, for CRUD applications using Nodejs 
+A basic Item Display website, for CRUD applications using Nodejs 
