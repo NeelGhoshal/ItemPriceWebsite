@@ -4,7 +4,7 @@ const Item = require('./models/items');
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
-const mongodb = 'mongodb+srv://ckmobile:ckmobile123@cluster0.niuuw.mongodb.net/item-database?retryWrites=true&w=majority';
+const mongodb = '//link';
 mongoose.connect(mongodb, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
     console.log('connected')
     app.listen(3000);
